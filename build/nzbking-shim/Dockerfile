@@ -1,0 +1,5 @@
+FROM python:3.12-slim
+WORKDIR /app
+RUN pip install --no-cache-dir flask waitress requests
+COPY nzbking_shim.py .
+CMD ["python", "-u", "nzbking_shim.py"]

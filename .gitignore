@@ -1,0 +1,16 @@
+.env
+*.env
+config/
+downloads/
+logs/
+reaper-archive/
+tdarr/
+transcode/
+*.db
+*.db-*
+*.log
+*.pid
+*.bak*
+__pycache__/
+*.pyc
+.ght
